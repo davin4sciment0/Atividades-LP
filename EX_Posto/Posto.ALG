@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "Posto"
 // Autor : Davi dos Santos e Erick Felipe
 // Data : 08/03/2023
 Var     litros, valor, conta: real
