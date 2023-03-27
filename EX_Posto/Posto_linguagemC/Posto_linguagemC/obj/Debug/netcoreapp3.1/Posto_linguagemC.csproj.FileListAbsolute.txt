@@ -1,0 +1,7 @@
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.csproj.AssemblyReference.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.Form1.resources
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.csproj.GenerateResource.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.AssemblyInfoInputs.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.AssemblyInfo.cs
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.csproj.CoreCompileInputs.cache
