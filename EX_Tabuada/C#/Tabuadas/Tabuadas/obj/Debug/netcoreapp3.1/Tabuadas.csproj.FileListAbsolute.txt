@@ -1,0 +1,7 @@
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.csproj.AssemblyReference.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.Form1.resources
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.csproj.GenerateResource.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.AssemblyInfoInputs.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.AssemblyInfo.cs
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Tabuada\C#\Tabuadas\Tabuadas\obj\Debug\netcoreapp3.1\Tabuadas.csproj.CoreCompileInputs.cache
