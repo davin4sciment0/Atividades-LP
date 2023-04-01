@@ -60,5 +60,15 @@ namespace Tabuadas
                 txtresult3.Text = tab3 "x" num3 "=" conta3;
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txttab1.Clear();
+            txttab2.Clear();
+            txttab3.Clear();
+            txtresult1.Clear();
+            txtresult2.Clear();
+            txtresult3.Clear();
+        }
     }
 }
