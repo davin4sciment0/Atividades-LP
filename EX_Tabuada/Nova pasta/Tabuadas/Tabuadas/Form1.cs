@@ -37,8 +37,8 @@ namespace Tabuadas
             num2 = 0;
             do
             {
-                txtresult2.Text = tab2 + "x" + num2 + "=" + conta2;
                 conta2 = tab2 * num2;
+                txtresult2.Text = tab2 + "x" + num2 + "=" + conta2;
                 num2++;
             }
             while (num2 <= 10);

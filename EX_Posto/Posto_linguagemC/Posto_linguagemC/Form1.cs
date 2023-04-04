@@ -67,6 +67,7 @@ namespace Posto_linguagemC
         {
             txtcomb.Clear();
             txtlitro.Clear();
+            txtvalor.Clear();
         }
     }
 }
