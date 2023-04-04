@@ -24,43 +24,49 @@ namespace Posto_linguagemC
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            double litro, valor, conta;
+            double litro, valor, conta, conta2;
             litro = Convert.ToDouble(txtlitro.Text);
-            valor = Convert.ToDouble(txtvalor.Text);
 
             char comb;
             comb = Convert.ToChar(txtcomb.Text);
 
-            if (comb = "A") {
-                if (litro = 20)
+            if (comb == 'A')
+            {
+                if (litro == 20)
                 {
                     conta = (litro * 14.7) / 100;
-                    valor = (litro * 4.90) - conta;
-                    txtvalor.Text = "O preço final com desconto será de: ", valor;
+                    conta2 = (litro * 4.90) - conta;
+                    txtvalor.Text = "O preço final com desconto será de: " + conta2;
                 }
                 else
                 {
                     conta = (litro * 24.5) / 100;
-                    valor = (litro * 4.90) - conta;
-                    txtvalor.Text = "O preço final com desconto será de: ", valor;
+                    conta2 = (litro * 4.90) - conta;
+                    txtvalor.Text = "O preço final com desconto será de: " + conta2;
                 }
             }
             else
             {
-                if (litro = 20)
+                if (litro == 20)
                 {
                     conta = (litro * 22) / 100;
-                    valor = (litro * 5.50) - conta;
-                    txtvalor.Text = "O preço final com desconto será de: ", valor;
+                    conta2 = (litro * 5.50) - conta;
+                    txtvalor.Text = "O preço final com desconto será de: " + conta2;
                 }
                 else
                 {
                     conta = (litro * 33) / 100;
-                    valor = (litro * 5.50) - conta;
-                    txtvalor.Text = "O preço final com desconto será de: ", valor;
+                    conta2 = (litro * 5.50) - conta;
+                    txtvalor.Text = "O preço final com desconto será de: " + conta2;
                 }
             }
 
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtcomb.Clear();
+            txtlitro.Clear();
         }
     }
 }

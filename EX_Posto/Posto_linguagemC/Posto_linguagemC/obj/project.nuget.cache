@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jG8F8zqIbUi5XHF8E7ZCik+9dtThaEzjxEmXw0lYyDV0zBfPgSvo9/idcyyfU7s9yBvqEpse0m04Iw/T8CNYqQ==",
+  "dgSpecHash": "aEk9j6ej1wuDHe4SDTZv0SbZm3vbH2eLyPYFonZ15HVmVqyG7L4f+a7cR466yMSZ+SkbF0uREsQsBjYHGNl9Gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Davi\\Documents\\.estudos\\Atividades-LP\\EX_Posto\\Posto_linguagemC\\Posto_linguagemC\\Posto_linguagemC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

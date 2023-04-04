@@ -29,114 +29,114 @@ namespace Posto_linguagemC
         /// </summary>
         private void InitializeComponent()
         {
-            this.btncalcular = new System.Windows.Forms.Button();
-            this.btnlimpar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtcomb = new System.Windows.Forms.TextBox();
-            this.txtvalor = new System.Windows.Forms.TextBox();
-            this.txtlitro = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            btncalcular = new System.Windows.Forms.Button();
+            btnlimpar = new System.Windows.Forms.Button();
+            label1 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
+            txtcomb = new System.Windows.Forms.TextBox();
+            txtvalor = new System.Windows.Forms.TextBox();
+            txtlitro = new System.Windows.Forms.TextBox();
+            label4 = new System.Windows.Forms.Label();
+            SuspendLayout();
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(240, 296);
-            this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(140, 23);
-            this.btncalcular.TabIndex = 0;
-            this.btncalcular.Text = "Calcular";
-            this.btncalcular.UseVisualStyleBackColor = true;
-            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
+            btncalcular.Location = new System.Drawing.Point(175, 310);
+            btncalcular.Name = "btncalcular";
+            btncalcular.Size = new System.Drawing.Size(140, 23);
+            btncalcular.TabIndex = 0;
+            btncalcular.Text = "Calcular";
+            btncalcular.UseVisualStyleBackColor = true;
+            btncalcular.Click += btncalcular_Click;
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(410, 296);
-            this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(140, 23);
-            this.btnlimpar.TabIndex = 1;
-            this.btnlimpar.Text = "Limpar";
-            this.btnlimpar.UseVisualStyleBackColor = true;
+            btnlimpar.Location = new System.Drawing.Point(480, 310);
+            btnlimpar.Name = "btnlimpar";
+            btnlimpar.Size = new System.Drawing.Size(140, 23);
+            btnlimpar.TabIndex = 1;
+            btnlimpar.Text = "Limpar";
+            btnlimpar.UseVisualStyleBackColor = true;
+            btnlimpar.Click += btnlimpar_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(240, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Digite o tipo de combustível:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(175, 127);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(159, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Digite o tipo de combustível:";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(240, 160);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "DIgite a quantidade de litros:";
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(175, 174);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(158, 15);
+            label2.TabIndex = 4;
+            label2.Text = "DIgite a quantidade de litros:";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(240, 209);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 15);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Valor a ser pago:";
+            label3.AutoSize = true;
+            label3.Location = new System.Drawing.Point(175, 223);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(93, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Valor a ser pago:";
             // 
             // txtcomb
             // 
-            this.txtcomb.Location = new System.Drawing.Point(450, 110);
-            this.txtcomb.Name = "txtcomb";
-            this.txtcomb.Size = new System.Drawing.Size(100, 23);
-            this.txtcomb.TabIndex = 6;
+            txtcomb.Location = new System.Drawing.Point(385, 124);
+            txtcomb.Name = "txtcomb";
+            txtcomb.Size = new System.Drawing.Size(235, 23);
+            txtcomb.TabIndex = 6;
             // 
             // txtvalor
             // 
-            this.txtvalor.Location = new System.Drawing.Point(450, 206);
-            this.txtvalor.Name = "txtvalor";
-            this.txtvalor.Size = new System.Drawing.Size(100, 23);
-            this.txtvalor.TabIndex = 7;
+            txtvalor.Location = new System.Drawing.Point(385, 220);
+            txtvalor.Name = "txtvalor";
+            txtvalor.Size = new System.Drawing.Size(235, 23);
+            txtvalor.TabIndex = 7;
             // 
             // txtlitro
             // 
-            this.txtlitro.Location = new System.Drawing.Point(450, 157);
-            this.txtlitro.Name = "txtlitro";
-            this.txtlitro.Size = new System.Drawing.Size(100, 23);
-            this.txtlitro.TabIndex = 8;
+            txtlitro.Location = new System.Drawing.Point(385, 171);
+            txtlitro.Name = "txtlitro";
+            txtlitro.Size = new System.Drawing.Size(235, 23);
+            txtlitro.TabIndex = 8;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(283, 48);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(239, 24);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "A = Ácool / G = Gasolina";
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label4.Location = new System.Drawing.Point(297, 56);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(239, 24);
+            label4.TabIndex = 9;
+            label4.Text = "A = Ácool / G = Gasolina";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtlitro);
-            this.Controls.Add(this.txtvalor);
-            this.Controls.Add(this.txtcomb);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnlimpar);
-            this.Controls.Add(this.btncalcular);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(label4);
+            Controls.Add(txtlitro);
+            Controls.Add(txtvalor);
+            Controls.Add(txtcomb);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(btnlimpar);
+            Controls.Add(btncalcular);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

@@ -5,3 +5,12 @@ C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_l
 C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.AssemblyInfoInputs.cache
 C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.AssemblyInfo.cs
 C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.csproj.CoreCompileInputs.cache
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\bin\Debug\netcoreapp3.1\Posto_linguagemC.exe
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\bin\Debug\netcoreapp3.1\Posto_linguagemC.deps.json
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\bin\Debug\netcoreapp3.1\Posto_linguagemC.runtimeconfig.json
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\bin\Debug\netcoreapp3.1\Posto_linguagemC.runtimeconfig.dev.json
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\bin\Debug\netcoreapp3.1\Posto_linguagemC.dll
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\bin\Debug\netcoreapp3.1\Posto_linguagemC.pdb
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.dll
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.pdb
+C:\Users\Davi\Documents\.estudos\Atividades-LP\EX_Posto\Posto_linguagemC\Posto_linguagemC\obj\Debug\netcoreapp3.1\Posto_linguagemC.genruntimeconfig.cache
