@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yQKrMCTo1x77wA6ulq+pJvCY2IWMJk0rLVd2n1wQidG3kC177HuZtg+h0faWJlLMnvKV+0EX2YlzhE6m2ydMZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Davi\\Documents\\.estudos\\Atividades-LP\\EX_Tabuada\\Nova pasta\\Tabuadas\\Tabuadas\\Tabuadas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
