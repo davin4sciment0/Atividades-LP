@@ -3,6 +3,7 @@ Algoritmo "Candidato"
 // Data : 08/03/2023
 
 Var     js, mj, jp, juncao, ganhador, conta, cand: real
+        resposta: caracter
 
 
 Inicio
@@ -10,39 +11,61 @@ Inicio
       escreval ("Digite 1 para Maria Juruma")
       escreval ("Digite 2 para João da Silva")
       escreval ("Digite 3 para João da Pamonha")
-      MJ:=0
-      JS:=0
-      JP:=0
+      mj:=0
+      js:=0
+      jp:=0
       escreva("Digite o nome de seu candidato: ")
       leia(cand)
       se (cand = 1)entao
-          mj = mj + 1
+          mj := mj + 1
           senao
                se(cand = 2)entao
-                  js = js + 1
+                  js := js + 1
                   senao
                        se(cand = 3)entao
-                          jp = jp + 1
+                          jp := jp + 1
                           senao
                                escreva("Inválido")
                 fimse
            fimse
       fimse
+      escreval ("Deseja votar mais uma vez? Digite s/n")
+      leia (resposta)
       
-      enquanto (js<mj E js<jp)
-		ganhador:= js
- 		escreva("O ganhador momentâneo é o João da Silva")
+      enquanto (resposta = "s")faca
+               escreva("Digite o nome de seu candidato: ")
+               leia(cand)
+               se (cand = 1)entao
+                  mj := mj + 1
+               senao
+                    se(cand = 2)entao
+                            js := js + 1
+                    senao
+                       se(cand = 3)entao
+                               jp := jp + 1
+                       senao
+                            escreva("Inválido")
+                       fimse
+                    fimse
+               fimse
+               escreval ("Deseja votar mais uma vez? Digite s/n")
+               leia (resposta)
       fimenquanto
       
-     	enquanto (mj<jp E mj<js)
-		ganhador:= mj
-		escreva("O ganhador momentâneo é a Maria Juruma")
-      fimenquanto
-      
-	   enquanto (jp<mj E jp<js)
-		ganhador:= jp
-		escreva ("O ganhador momentâneo é o João da Pamonha")
-		fimenquanto
+      se (js<mj E js<jp)
+		    ganhador:= js
+ 		    escreva("O ganhador momentâneo é o João da Silva")
+      senao
+           se(mj<jp E mj<js)
+              ganhador:= mj
+              escreva("O ganhador momentâneo é a Maria Juruma")
+           senao
+                se(jp<mj E jp<js)
+                   ganhador:= jp
+                   escreva ("O ganhador momentâneo é o João da Pamonha")
+                fimse
+           fimse
+      fimse
 		
 	   juncao:= mj + jp + js
 	   conta:= (ganhador+100)/juncao

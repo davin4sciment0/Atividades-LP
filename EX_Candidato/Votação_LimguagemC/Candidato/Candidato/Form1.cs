@@ -16,5 +16,16 @@ namespace Candidato
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnvotar_Click(object sender, EventArgs e)
+        {
+            double voto, mj, js, jp;
+
+        }
     }
 }
