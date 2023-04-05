@@ -52,15 +52,15 @@ Inicio
                leia (resposta)
       fimenquanto
       
-      se (js<mj E js<jp)
+      se (js>mj)e(js>jp)entao
 		    ganhador:= js
  		    escreva("O ganhador momentâneo é o João da Silva")
       senao
-           se(mj<jp E mj<js)
+           se(mj>jp)e(mj>js)entao
               ganhador:= mj
               escreva("O ganhador momentâneo é a Maria Juruma")
            senao
-                se(jp<mj E jp<js)
+                se(jp>mj) E (jp>js)entao
                    ganhador:= jp
                    escreva ("O ganhador momentâneo é o João da Pamonha")
                 fimse
@@ -69,6 +69,6 @@ Inicio
 		
 	   juncao:= mj + jp + js
 	   conta:= (ganhador+100)/juncao
-	   escreva ("O candidato tem", conta "% de", juncao "votos")
+      escreval ("O candidato tem ",conta," % de ", juncao," votos")
 
 Fimalgoritmo
